@@ -54,8 +54,10 @@ Cloud Scheduler (*/15 * * * *)
    React (auto-refresh 60s) ←──── /api/dashboard
 ```
 
+### Diagrama del sistema
 ![Arquitectura del sistema](docs/img/arquitectura-sistema.png)
 
+### Flujo del job
 ![Flujo del job](docs/img/flujo-job.png)
 
 ---
