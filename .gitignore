@@ -1,0 +1,16 @@
+backend/node_modules/
+backend/.env
+backend/*.log
+
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/*.log
+
+.DS_Store
+package-lock.json
+DEPLOY-GOOGLE-CLOUD.md
+/diagramas
+docs/img/app-dark-local.png
+docs/img/app-dark-2.png
+docs/img/.gitkeep

@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --brand-500:#3b82f6; --brand-600:#2563eb; --brand-700:#1d4ed8;
+  --success:#10b981; --success-bg:#ecfdf5;
+  --warning:#f59e0b; --warning-bg:#fffbeb;
+  --error:#ef4444; --error-bg:#fef2f2;
+  --bg:#f8fafc; --surface:#ffffff; --surface-2:#f1f5f9;
+  --border:#e2e8f0; --border-strong:#cbd5e1;
+  --text:#0f172a; --text-muted:#64748b; --text-subtle:#94a3b8;
+}
+
+.dark {
+  --bg:#0b1120; --surface:#111827; --surface-2:#1e293b;
+  --border:#1e293b; --border-strong:#334155;
+  --text:#f1f5f9; --text-muted:#94a3b8; --text-subtle:#64748b;
+  --brand-500:#60a5fa; --brand-600:#3b82f6; --brand-700:#2563eb;
+  --success-bg:rgba(16,185,129,0.12); --warning-bg:rgba(245,158,11,0.12); --error-bg:rgba(239,68,68,0.12);
+}
+
+body { font-family:'Plus Jakarta Sans',system-ui,sans-serif; background-color:var(--bg); color:var(--text); margin:0; }
+.font-mono { font-family:'JetBrains Mono',monospace; }
