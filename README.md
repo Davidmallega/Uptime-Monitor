@@ -2,7 +2,6 @@
 
 Aplicación fullstack desplegada en producción. Monitor de disponibilidad de sitios web que pingea URLs automáticamente cada 15 minutos. Cloud Scheduler dispara el job, los resultados se almacenan en BigQuery y la lista de URLs en Firestore.
 
-**Demo en vivo:** https://uptime-monitor-3d060.web.app
 
 ---
 
